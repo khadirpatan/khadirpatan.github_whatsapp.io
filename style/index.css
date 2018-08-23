@@ -425,7 +425,7 @@ color:white;
 }
 @media screen and ( max-width :500px) and (min-width: 400px){
 
-#back-icon1,#back-icon2, #back-icon3{
+#back-icon1, #back-icon2, #back-icon3{
 	color:white;
 	font-size:15px;
 	padding:15px 10px 0px 0px;
