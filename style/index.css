@@ -1,0 +1,627 @@
+
+:root{
+	font-size: 16px;
+	}
+html, body{
+  margin:0;
+  width: 100%;
+}
+body
+{
+    overflow: hidden;
+}
+#top-head-web{
+
+	font-size:1.6rem;
+	background-color: #337c51;
+	color:white;
+	font-weight: 650;
+	position: fixed;
+	width:100%;
+	margin:0;
+	padding:0;
+	z-index: 1;
+
+
+}
+#top_head_mobile{
+	font-size:1.3rem;
+	background-color: #337c51;
+	color:white;
+	font-weight: 600;
+	position: fixed;
+	width:100%;
+	margin:0;
+	padding:0;
+	z-index: 1;
+}
+
+.icons a, .icons a:hover{
+	font-size: 1.4rem;
+	color:white;
+	text-decoration:none;
+}
+
+#nav-tab {
+	 width:100%;
+	 font-size:1.2rem;
+	   background-color: #337c51;
+	   font-weight: 600;
+	   margin:0;
+	   padding:0;
+
+}
+.nav-item{
+  background-color:#337c51!important;
+  border: none!important;
+}
+
+
+.nav-tabs a{
+  color:lightgray !important; 
+}
+
+.nav-link.active{
+  color: white !important;
+  border-bottom: 4px solid white !important;
+}
+
+#tabContent {
+	position: relative;
+	top:121px;
+}
+#tabContent a{
+	color:black;
+	text-decoration:none;
+
+}
+
+
+#tabContent .card{
+	padding:2px 0px 2px 8px;
+}
+
+.profile-div{
+	padding:20px 10px 0px 10px;
+
+}
+
+.profile-pic{
+	height:45px;
+	width: 45px;
+	border-radius: 50%;
+}
+
+
+.card-block span{
+	float:right;
+	padding-right: 5px;
+	font-size: small;
+}
+.card-block #time{
+	float:right;
+	padding-right: 5px;
+	font-size: small;
+	color:#24BD34;
+
+}
+.card-block{
+padding:10px 5px 0px 10px;
+overflow-x: hidden;
+}
+#number-circle{
+	color: white;
+	padding-left: 7px;
+    width:22px;
+    margin-right: 30px;
+    border-radius:50%;
+    background-color:#24BD34 ;
+
+}
+
+
+#left-container{
+
+	padding:0;
+	overflow-y: auto;
+	height:81.6vh;
+overflow-y: scroll;
+	background-color:white;
+
+}
+
+#total-container{
+
+position: relative;
+width:100%;
+padding:0;
+margin:0;
+
+}
+
+#left-container::-webkit-scrollbar {
+    width: 12px;
+}
+
+#left-container::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px black; 
+}
+
+#left-container::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px black; 
+}
+
+#right-container1,#right-container2,#right-container3{
+	position: relative;
+    display:none;
+	background-color: #F4F4F4;
+	width: 100%;
+
+}
+
+#mobile-view1,#mobile-view2,#mobile-view3{
+		display:none;
+        position: fixed;
+        z-index: 1;
+        margin-top:-110px;
+        padding:0;
+        width: 100%;
+        height: 100%;
+
+}
+#profile{
+ background-color:	lightgray;	
+ overflow-y: scroll;
+ height:80.6vh;
+}
+
+#profile-margin{
+	margin:0vw 5vw;
+}
+#pro-div{
+position: relative;
+	width:200px;
+	height: 200px;
+	margin:auto; 
+}
+
+#pro-pic{
+
+	width:200px;
+	height: 200px;
+	border-radius: 50%;
+	
+	}
+
+
+
+#camara{
+	border-radius: 50%;
+	height:50px;
+	width:50px;
+	background-color:#367052;
+	position:absolute;
+	bottom:0px;
+	right: 0px;
+	z-index: 1;
+}
+
+#camara-icon{
+font-size:24px;
+position:relative;
+top:26%;
+left:25%;
+color:white;
+}
+
+.name{
+	border: 1px solid lightgray;
+	font-weight: 600;
+	font-size: 1.3rem;
+	padding:1vh 4vw 1vh 4vw;
+	background-color: white;
+}
+
+.sometext{
+	border: 1px solid lightgray;
+	font-size: 1rem;
+	padding:3vh 4vw 1vh 3vh;
+}
+.about{
+	border: 1px solid lightgray;
+padding:3vh 4vw 3vh 4vw;
+font-weight: 600;
+	background-color: white;
+}
+.aboutpara{
+	color:darkgreen;
+}
+
+
+
+
+
+#right-card{
+	
+	padding:2px 0px 0px 8px;
+	background-color: #337c51;
+	color:white;
+}
+
+#right-profile-div{
+	padding:10px;
+
+}
+
+.right-profile-pic{
+	height:50px;
+	width: 50px;
+	border-radius: 50%;
+}
+
+
+.card-block{
+padding:12px 5px 0px 10px;
+
+}
+#right-top{
+padding:20px 5px 0px 0px;
+line-height: 0.3;
+}
+
+#right-card-icons{
+	text-align:right;
+	padding:8px 10px 0px 8px;
+	background-color: #337c51;
+	color:white;
+}
+#right-card-icons #icons, #right-card #icons{
+
+	font-size:20px;
+	color:white; 
+	padding:20px 10px 0px 2px; 
+}
+
+#msgcontent{
+	
+	background-color:#ECE5DD;
+	padding:0;
+	width:100%;
+	height:71vh;
+	margin:0;
+}
+.sent{
+	margin-left: auto;
+	margin-top: 10px;
+	margin-right:20px;
+	background-color: yellow;
+	border-radius:8px;
+	font-size: 1.1rem;
+	padding:8px 8px;
+	background-color:#DCF6d6;
+	
+}
+.recieve{
+	margin-right: auto;
+	margin-left:20px;
+	margin-top: 10px;
+	background-color: yellow;
+	border-radius:8px;
+	font-size: 1.1rem;
+	padding:8px 8px;
+	background-color:white;
+	
+}
+
+.time{
+	color:gray;
+	font-size: 0.9rem;
+}
+
+#keypad{
+	position:fixed;
+	width:65vw;
+	bottom:0px;
+}
+
+
+input[type=text] , select {
+    width: 50%;
+    padding: 2px 5px;
+    margin: 8px 0;
+    border: none;
+    outline: none;
+}
+
+
+#msgcontent {
+   overflow-y: scroll;
+}
+#msgcontent::-webkit-scrollbar {
+    width: 12px;
+}
+
+#msgcontent::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px black; 
+}
+
+#msgcontent::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px black; 
+}
+
+#back-icon1,#back-icon2, #back-icon3{
+	color:white;
+	font-size:18px;
+	padding:20px 10px 0px 0px;
+
+}
+
+@media screen and ( max-width :768px){
+	#msgcontent{
+	background-color:#ECE5DD;
+	padding:0;
+	width:100%;
+	height:88vh;
+	margin:0;
+}
+
+
+#left-container{
+	padding:0;
+	overflow-y: auto;
+	height:81.6vh;
+overflow-y: scroll;
+	background-color:white;
+
+}
+
+#tabContent {
+	position: relative;
+	top:105px;
+}
+
+#pro-div{
+position: relative;
+	width:150px;
+	height: 150px;
+	margin:auto; 
+}
+
+#pro-pic{
+
+	width:150px;
+	height: 150px;
+	border-radius: 50%;
+	
+	}
+
+#camara{
+	border-radius: 50%;
+	height:40px;
+	width:40px;
+	background-color:#367052;
+	position:absolute;
+	bottom:0px;
+	right: 0px;
+	z-index: 1;
+}
+
+#camara-icon{
+font-size:18px;
+position:relative;
+top:23%;
+left:25%;
+color:white;
+}
+#keypad{
+	position:fixed;
+	width:100vw;
+	bottom:0px;
+}s
+}
+@media screen and ( max-width :500px) and (min-width: 400px){
+
+#back-icon1,#back-icon2, #back-icon3{
+	color:white;
+	font-size:15px;
+	padding:15px 10px 0px 0px;
+
+}
+
+.profile-div{
+	padding:20px 10px 0px 10px;
+
+}
+.card-block{
+padding:12px 5px 0px 10px;
+
+}
+#right-top{
+padding:10px 5px 0px 0px;
+line-height: 0.3;
+}
+
+#right-card .card-block{
+
+	padding-top:20px;
+}
+
+.right-profile-pic{
+	height:40px;
+	width: 40px;
+	border-radius: 50%;
+}
+#right-profile-div{
+	padding-top:15px;
+
+}
+ #icons{
+
+	font-size:15px;
+	color:white; 
+	padding-top:25px; 
+}	
+
+#tabContent {
+	position: relative;
+	top:104px;
+}
+
+#pro-div{
+position: relative;
+	width:120px;
+	height: 120px;
+	margin:auto; 
+}
+
+#pro-pic{
+
+	width:120px;
+	height: 120px;
+	border-radius: 50%;
+	
+	}
+
+#camara{
+	border-radius: 50%;
+	height:30px;
+	width:30px;
+	background-color:#367052;
+	position:absolute;
+	bottom:0px;
+	right: 0px;
+	z-index: 1;
+}
+
+#camara-icon{
+font-size:14px;
+position:relative;
+top:10%;
+left:25%;
+color:white;
+}
+#keypad{
+	position:fixed;
+	width:100vw;
+	bottom:0px;
+}
+}
+
+
+
+
+@media screen and ( max-width :400px) and (min-width: 325px){
+
+:root{
+	font-size: 14px;
+}
+
+#keypad{
+	position:fixed;
+	width:100vw;
+	bottom:0px;
+}
+
+
+#right-container1,#right-container2,#right-container3{
+	position: relative;
+    display:none;
+	background-color: #F4F4F4;
+	width: 100%;
+	height:85.6vh;
+}
+#back-icon1,#back-icon2, #back-icon3{
+	color:white;
+	font-size:15px;
+	padding:15px 10px 0px 0px;
+
+}
+.profile-div{
+	padding:8px 10px 0px 10px;
+
+}
+
+.material-icons{
+
+font-size: 4px;
+color:green;
+}
+
+
+
+#tabContent {
+	position: relative;
+	top:106px;
+}
+#right-card-icons #icons{
+
+	font-size:15px;
+	color:white; 
+	padding-top:15px; 
+}	
+
+.right-profile-pic{
+	height:40px;
+	width: 40px;
+	border-radius: 50%;
+}
+#lastSeenTime3,#lastSeenTime2,#lastSeenTime1{
+	font-size: 10px;
+	line-height: 1;	
+}
+
+}
+@media screen and ( max-width :325px) and (min-width: 20px){
+
+:root{
+
+	font-size: 14px;
+}
+#back-icon1,#back-icon2, #back-icon3{
+	color:white;
+	font-size:12px;
+	padding:10px 10px 0px 0px;
+
+}
+.profile-div{
+	padding:8px 10px 0px 10px;
+
+}
+.right-profile-pic{
+	height:30px;
+	width: 30px;
+	border-radius: 50%;
+}
+#right-profile-div{
+	padding:26px 10px 0px 0px;
+
+}
+
+
+#tabContent {
+	position: relative;
+	top:100px;
+}
+#right-card-icons #icons{
+
+	font-size:15px;
+	color:white; 
+	padding-top:20px; 
+}	
+#right-top{
+	font-size: 12px;
+padding:20px 5px 0px 0px;
+line-height: 1;
+}
+
+#lastSeenTime3,#lastSeenTime2,#lastSeenTime1{
+	
+}
+
+.right-profile-pic{
+	
+
+}
+}
